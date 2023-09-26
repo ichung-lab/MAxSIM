@@ -26,7 +26,7 @@ pip install -r Requirements/requirements.txt
 
 ```
 conda create --name maxsim python=3
-activate h1b
+activate maxsim
 pip install -r Requirements/maxsim.txt
 ```
 
