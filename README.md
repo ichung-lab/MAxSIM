@@ -12,21 +12,21 @@ Create a new environment in your local machine using the files in the [Requireme
 ```
 conda env create -f Requirements/maxsim.yml
 ```
-Alternatively the environment can be created like this:
+Alternatively, the environment can be created like this:
 
 - __Linux__ or __Mac__:
 
 ```
 conda create --name maxsim python=3.7
 source activate maxsim
-pip install -r Requirements/requirements.txt
+pip install -r Requirements/maxsim.txt
 ```
 
 - __Windows__:
 
 ```
 conda create --name maxsim python=3
-activate h1b
+activate maxsim
 pip install -r Requirements/maxsim.txt
 ```
 
