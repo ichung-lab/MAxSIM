@@ -76,6 +76,9 @@ def gui_reconstruction():
         and in Information Panel.
         '''
         folder = fold.get()
+        # Turns string to raw string and replaces \\ by \.
+        # If the string is already raw, then .replace("//", "/") that the path is composed only of forward slashes.
+        folder = folder.encode('unicode-escape').decode().replace("\\", "/").replace("//", "/")
         if (len(folder) != 0):
 
             # read stack file to recosntruct
